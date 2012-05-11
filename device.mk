@@ -19,12 +19,6 @@
 #
 # Everything in this directory will become public
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/samsung/tuna/kernel
-else
-LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
 DEVICE_PACKAGE_OVERLAYS := device/samsung/tuna/overlay
 
 # This device is xhdpi.  However the platform doesn't
@@ -55,12 +49,12 @@ PRODUCT_PACKAGES += \
 	tuna_hdcp_keys
 
 PRODUCT_COPY_FILES := \
-	$(LOCAL_KERNEL):kernel \
 	device/samsung/tuna/init.tuna.rc:root/init.tuna.rc \
 	device/samsung/tuna/init.tuna.usb.rc:root/init.tuna.usb.rc \
 	device/samsung/tuna/ueventd.tuna.rc:root/ueventd.tuna.rc \
 	device/samsung/tuna/media_profiles.xml:system/etc/media_profiles.xml \
 	device/samsung/tuna/gps.conf:system/etc/gps.conf
+#	$(LOCAL_KERNEL):kernel
 
 # Bluetooth configuration files
 PRODUCT_COPY_FILES += \

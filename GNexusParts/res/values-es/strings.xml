@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ajustes Galaxy Nexus</string>
+
+    <!-- Page Headers -->
+    <string name="general_title">GENERAL</string>
+    <string name="display_title">PANTALLA</string>
+
+    <string name="category_cpu_title">CPU</string>
+    <string name="category_screen_title">Ajustes WM8994 ( voodoo )</string>
+    <string name="color_tuning_title_head">Tunea Multiplicadores de color</string>
+    <string name="color_tuning_summary_head">Calibra multiplicadores de color</string>
+    <string name="gamma_tuning_title_head">Tunea Color Gamma</string>
+    <string name="gamma_tuning_summary_head">Calibra gamma correción de color</string>
+    <string name="color_hack_presets_title_head">Color hack predefinidos</string>
+    <string name="color_hack_presets_summary_head">Predefinidos para gamma y multiplicadores testeados por algunos usuarios</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <string name="gamma_default_title">Defecto</string>
+    <string name="gamma_CM_title">Ajus. OSR</string>
+    <string name="gamma_bright_title">Ajus. Bri.</string>
+    <string name="color_default_title">Defecto</string>
+    <string name="color_CM_title">Ajus. OSR</string>
+    <string name="color_dark_title">Ajus. oscuro</string>
+    <string name="gamma_dss_title">Ajus. DSS Gamma</string>
+
+    <string name="category_hardware_title">CPU</string>
+    <string name="vibrator_tuning_title_head">Vibrador feedback tuning</string>
+    <string name="vibrator_tuning_summary_head">Controles por defecto de la potencia del vibrador</string>
+
+    <string name="vibrator_title">Vibración %</string>
+    <string name="vibrator_default_title">Defecto</string>
+
+    <string name="preset1_default_title">Defecto</string>
+    <string name="preset2_default_title">Natural</string>
+    <string name="preset3_default_title">Azul oscuro</string>
+    <string name="preset4_default_title">Cálido</string>
+    <string name="preset5_default_title">Oscuro</string>
+    <string name="preset6_default_title">Cross Proc.</string>
+    <string name="credits_presets">Créditos: ale.landra91 cpaixao provolinoo</string>
+
+    <string name="category_touchkey_title">Teclas</string>
+    <string name="touchkey_notification_title_head">Backlight Notificaciones</string>
+    <string name="touchkey_notification_summary_head">Las teclas se encenderan cuando entre una notificación.</string>
+
+    <string name="category_radio_title">Radio</string>
+    <string name="hspa_title_head">HSPA</string>
+    <string name="hspa_summary_head">Activa HSDPA/HSUPA</string>
+
+</resources>

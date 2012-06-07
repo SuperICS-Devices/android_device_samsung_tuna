@@ -263,10 +263,10 @@ public class GammaTuningPreference extends DialogPreference implements OnClickLi
     }
 
     private void SetCMSettings() {
-        mSeekBars[0].SetNewValue(2);
-        mSeekBars[1].SetNewValue(15);
-        mSeekBars[2].SetNewValue(5);
-        mSeekBars[3].SetNewValue(8);
+        mSeekBars[0].SetNewValue(0);
+        mSeekBars[1].SetNewValue(0);
+        mSeekBars[2].SetNewValue(0);
+        mSeekBars[3].SetNewValue(7);
     }
 
     private void SetSBrightSettings() {

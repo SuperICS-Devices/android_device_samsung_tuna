@@ -18,10 +18,10 @@
     <string name="color_green_title">Green</string>
     <string name="color_blue_title">Blue</string>
     <string name="gamma_default_title">Default</string>
-    <string name="gamma_CM_title">CM Sett.</string>
+    <string name="gamma_CM_title">OSR Sett.</string>
     <string name="gamma_bright_title">Bright Sett.</string>
     <string name="color_default_title">Default</string>
-    <string name="color_CM_title">CM Sett.</string>
+    <string name="color_CM_title">OSR Sett.</string>
     <string name="color_dark_title">Dark Sett.</string>
     <string name="gamma_dss_title">DSS Gamma Set.</string>
 
